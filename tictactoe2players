@@ -115,7 +115,7 @@ int main() {
 
 		if (checkWin('X')) {
 			board2();
-			cout << "Player 1 Won!(Hit run to plau again)\n";
+			cout << "Player 1 Won!(Hit run to play again)\n";
 			break;
 		}
 
@@ -138,7 +138,7 @@ int main() {
 
 		if (isDraw()) {
 			board2();
-			cout << "It's a draw!(Hit run to plau again)\n";
+			cout << "It's a draw!(Hit run to play again)\n";
 			break;
 		}
 	}
